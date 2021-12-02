@@ -2,7 +2,6 @@ import { NO_MATCH } from "../common"
 
 const binarySearch = (items: any[], item: any) => {
     let result = null;
-
     let lowestPoint = 0
     let highestPoint = items.length - 1
     let middlePoint; 
